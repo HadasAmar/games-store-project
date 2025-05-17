@@ -21,8 +21,8 @@
 
 ## Project Structure  
 /game-store-project  
-  ├── client/    # React frontend  
-  ├── server/    # Node.js backend  
+  ├── gameStoreClient/    # React frontend  
+  ├── gameStoreServer/    # Node.js backend  
 
 ## Technologies  
 - **Frontend:** React, React Router, Axios  
@@ -32,16 +32,16 @@
 ## Installation and Setup  
 
 ### 1. Clone the repository  
-git clone https://github.com/your-username/games-store-project.git  
+git clone https://github.com/HadasAmar/games-store-project.git  
 cd game-store-project  
 
 ### 2. Install dependencies and run the backend (Node.js)  
-cd ../server  
+cd gameStoreServer  
 npm install  
 npm start 
 
 ### 3. Install dependencies and run the frontend (React)  
-cd client  
+cd gameStoreClient  
 npm install  
 npm start  
  
